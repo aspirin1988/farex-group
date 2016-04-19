@@ -1,0 +1,597 @@
+body{
+    overflow-x:hidden;
+}
+
+/** ГЛАВНАЯ СТРАНИЦА **/
+
+.background-img{
+    background-image: url(../img/bg.png);
+}
+
+.logo{
+}
+
+.telephone{
+    padding-top: 30px;
+    text-align: center;
+}
+
+.telephone-number{
+    font-size: 23px;
+    font-family: "HelveticaNeueCyr";
+    color: rgb(88, 82, 82);
+    line-height: 1.2;
+    text-align: center;
+    padding-top: 30px;
+}
+
+.telephone-number a {
+    color: rgb(88, 82, 82);
+}
+
+/** Меню **/
+
+.icon-bar{
+    background: rgba(0,0,0,1) !important;
+}
+
+button.navbar-toggle{
+    border: 1px solid black !important;
+}
+
+.menu{
+    margin-top: 20px;
+    background-color: #e0811a;
+    margin-bottom: 0;
+}
+
+.navbar .nav li {
+    width: 120px;
+    display: inline-block;
+    float: none;
+}
+.navbar .nav {
+    float: none;
+    text-align: center;
+}
+
+.navbar-nav li a{
+    white-space: nowrap;
+    font-size: 18px;
+    font-family: "HelveticaNeueCyr";
+    color: Black !important;
+    line-height: 1.2;
+    text-align: center;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 15px;
+}
+
+.navbar-nav.main-menu li :hover{
+    color: white !important;
+    fill: white;
+}
+
+.icon-menu{
+    width: 36px;
+    height: 36px;
+    margin-top: 10px;
+}
+
+.icon-menu:hover{
+    color: white;
+}
+
+/** Хедер **/
+
+.img_header{
+    width: 100%;
+    height: 100%;
+}
+
+.container-image{
+    margin: 0;
+    padding: 0;
+    position: relative;
+}
+
+.devise{
+    position: absolute;
+    top: 90px;
+    left: 140px;
+    height: 250px;
+    font-family: "HelveticaNeueCyr";
+    text-shadow: 1px 1px 1px black;
+    width: 386px;
+    font-size: 30px;
+    color: rgb(84, 84, 84);
+    font-weight: bold;
+    line-height: 1.2;
+    text-align: center;
+}
+
+.container-description{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    border-top: 10px solid #e0811a;
+    border-bottom: 10px solid #e0811a;
+}
+
+.brick-image{
+    text-align: center;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+p.description{
+    font-size: 24px;
+    font-family: "HelveticaNeueCyr";
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    line-height: 1.2;
+    text-align: center;
+    margin-top: 70px
+}
+
+.image-desc{
+    width: 100%;
+    height: 100%;
+}
+
+/** Рекомендации **/
+
+.recomendation{
+    text-align: center;
+    font-size: 36px;
+    font-family: "HelveticaNeueCyr";
+    color: rgb(0, 0, 0);
+    line-height: 1.2;
+    font-weight: bold;
+}
+
+.glyphicon{
+    font-size: 3.0em;
+}
+
+.glyphicon{
+    cursor: pointer;
+}
+
+.recomendation-block{
+    border: 1px solid black;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+    padding-top: 0 !important;
+}
+
+.img_recom{
+    width: 100%;
+    height: 100%;
+}
+
+.head-rec{
+    text-align: center;
+    font-size: 24px;
+    font-family: "HelveticaNeueCyr";
+    color: rgb(0, 0, 0);
+    line-height: 1.2;
+    -moz-transform: matrix( 1.12150837988827,0,0,1.12107623318386,0,0);
+    -webkit-transform: matrix( 1.12150837988827,0,0,1.12107623318386,0,0);
+    -ms-transform: matrix( 1.12150837988827,0,0,1.12107623318386,0,0);
+}
+
+.text-rec{
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 18px;
+    font-family: "HelveticaNeueCyr";
+    color: rgb(224, 129, 26);
+    line-height: 1.2;
+    text-align: center;
+    -moz-transform: matrix( 1.12150837988827,0,0,1.12107623318386,0,0);
+    -webkit-transform: matrix( 1.12150837988827,0,0,1.12107623318386,0,0);
+    -ms-transform: matrix( 1.12150837988827,0,0,1.12107623318386,0,0);
+}
+.link-rec{
+    text-align: center;
+    font-size: 18px;
+    font-family: "HelveticaNeueCyr";
+    color: rgb(0, 0, 0) !important;
+    text-decoration: underline;
+    line-height: 1.2;
+    text-align: center;
+}
+
+span.glyphicon{
+    padding-top: 170px;
+    display: inline-block;
+}
+
+.left{
+    float: left;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.right{
+    float: right;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.block-slider{
+    padding-left: 0;
+    padding-right: 0;
+    display: block;
+}
+
+.col-md-1, .col-md-10{
+    padding: 0;
+}
+
+/** Префутер **/
+
+.line{
+    height: 1px;
+    width: 400px;
+    background: rgba(0,0,0,0.8);
+    margin-bottom: 30px;
+    margin-top: 20px;
+    box-shadow: 5px 4px 10px black;
+}
+
+.delivery{
+    font-size: 18px;
+    font-family: "HelveticaNeueCyr";
+    color: rgb(0, 0, 0);
+    line-height: 1.2;
+    text-align: center;
+    margin-top: 15px;
+    -moz-transform: matrix( 0.99659284497445,0,0,0.99975597146073,0,0);
+    -webkit-transform: matrix( 0.99659284497445,0,0,0.99975597146073,0,0);
+    -ms-transform: matrix( 0.99659284497445,0,0,0.99975597146073,0,0);
+}
+
+.sale{
+    font-weight: bold;
+    margin-bottom: 0;
+}
+
+.list{
+    font-size: 18px;
+    font-family: "HelveticaNeueCyr";
+    color: rgb(0, 0, 0);
+    line-height: 1.2;
+    text-align: left;
+    margin-bottom: 5px;
+}
+
+.list-delivery{
+    padding-top: 10px;
+    padding-left: 125px;
+}
+
+/** Футер **/
+
+footer{
+    width: 100%;
+    background: rgba(0,0,0,1);
+}
+
+.map{
+    margin-top: 10px;
+    margin-bottom: 10px
+}
+
+.contact{
+    font-size: 20px;
+    font-family: "HelveticaNeueCyr";
+    color: rgb(255, 255, 255);
+    line-height: 1.2;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+.contact-info{
+    font-size: 20px;
+    font-family: "HelveticaNeueCyr";
+    color: rgb(255, 255, 255);
+    line-height: 1.2;
+    margin-bottom: 20px;
+}
+
+.contact-info a{
+    color: rgb(255, 255, 255);
+}
+
+.author-block{
+    position: relative;
+}
+
+.author{
+    font-size: 20px;
+    font-family: "HelveticaNeueCyr";
+    color: rgb(255, 255, 255);
+    margin-top: 275px;
+}
+
+/* СТРАНИЦА КОНТАКТЫ */
+
+.text-contact{
+    text-align: center;
+    font-size: 30px;
+    font-family: "HelveticaNeueCyr";
+    color: rgb(0, 0, 0);
+    line-height: 1.2;
+    margin-top: 30px;
+}
+
+.map-contact{
+    border-top: 5px solid #e0811a;
+    border-bottom: 5px solid #e0811a;
+}
+
+.contact-data{
+    margin-top: 40px;
+}
+
+.contact-data-text{
+    font-size: 18px;
+    font-family: "HelveticaNeueCyr";
+    color: rgb(0, 0, 0);
+    line-height: 1.2;
+    text-align: center;
+    margin-top: 15px;
+}
+
+.contact-data-text a {
+    color: rgb(0, 0, 0);
+}
+
+/* СТРАНИЦА КАТАЛОГ */
+
+.sub-menu{
+    border-radius: 5px;
+}
+
+.sub-menu li{
+    height: 100%;
+}
+
+.sub-nav{
+    display: table;
+}
+
+.sub-nav li{
+    display: table-cell !important;
+    width: auto !important;
+    vertical-align: middle;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+
+.sub-nav li a{
+    color: black;
+    white-space: normal;
+    width: auto;
+}
+
+.sub-nav li:hover{
+    background: white !important;
+    color:black !important;
+}
+
+.row-production{
+    margin-top: 20px;
+}
+
+/* СТРАНИЦА О КОМПАНИИ*/
+.images{
+    position: relative;
+    margin-top: 20px;
+}
+
+.image-logo{
+    width: 100%;
+    height: 100%;
+}
+
+.image-block{
+    position: absolute;
+    top:0;
+    right: 15px;
+    height: 100%;
+}
+
+.text-about{
+    background-image: url(../img/black-block.png);
+    position: absolute;
+    top:0;
+    right: 15px;
+    height: 100%;
+    max-width: 511px;
+    display: inline-block;
+}
+
+.text-about div{
+    padding-top: 31%;
+    font-size: 30px;
+    display: inline-block;
+    font-family: "HelveticaNeueCyr";
+    color: rgb(255, 255, 255);
+    line-height: 1.2;
+    vertical-align: middle;
+    text-align: center;
+}
+
+.text-about-post{
+    margin-top: 20px;
+}
+
+.text-about-post p{
+    font-size: 18px;
+    font-family: "HelveticaNeueCyr";
+    color: rgb(0, 0, 0);
+    line-height: 1.2;
+    text-align: left;
+}
+
+/* Калькулятор */
+
+.logo-calc{
+    height: 100%;
+    width: 100%;
+}
+
+.text-calc{
+    font-size: 24px;
+    font-family: "HelveticaNeueCyr";
+    color: rgb(0, 0, 0);
+    line-height: 1.2;
+    text-align: center;
+}
+
+.mode{
+    font-size: 24px;
+    font-family: "HelveticaNeueCyr";
+    color: rgb(0, 0, 0);
+    line-height: 1.2;
+    text-align: left;
+    padding-left: 5px;
+}
+
+p.mode-brick{
+    font-size: 18px;
+    font-family: "HelveticaNeueCyr";
+    color: rgb(0, 0, 0);
+    line-height: 1.2;
+    text-align: left;
+    padding-left: 10px;
+    margin-top: 10px;
+}
+
+input[type="text"] {
+    border: 2px solid black;
+    border-radius: 0;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    -khtml-border-radius: 0;
+    background: rgba(0,0,0,0) !important;
+    color: black;
+    font-size: 18px;
+    line-height: 38px;
+    margin-left: 10px;
+    font-family: "HelveticaNeueCyr";
+}
+
+input[type="text"]:focus{
+    box-shadow: 0 0 10px #e0811a !important;
+    border: 2px solid black;
+}
+
+input[type="button"]{
+    background-color: #e0811a;
+    color: black;
+    border: 0;
+    box-shadow: 0px 6px 8px 0px rgba(0, 0, 0, 0.1);
+    width: 195px;
+    height: 51px;
+    font-size: 24px;
+    font-family: "HelveticaNeueCyr";
+    color: rgb(0, 0, 0);
+    line-height: 1.2;
+}
+
+.buttons{
+    text-align: center;
+}
+
+p.center-text{
+    text-align: center;
+    font-size: 18px;
+    font-family: "HelveticaNeueCyr";
+    color: rgb(0, 0, 0);
+    line-height: 1.2;
+    margin-top: 20px;
+}
+
+p.center-text-result{
+    padding-right: 278px;
+
+}
+
+.center-text{
+    text-align: center;
+}
+
+
+
+.result{
+    padding: 30px 0;
+    border-top: 4px solid #e0811a;
+    border-bottom: 4px solid #e0811a;
+}
+
+.text-error{
+    text-align: center;
+    font-size: 24px;
+    font-family: "HelveticaNeueCyr";
+    color: rgb(0, 0, 0);
+    line-height: 1.2;
+}
+
+.img-production{
+    width: 100%;
+}
+
+.text-production{
+    text-align: left;
+    font-size: 18px;
+    font-family: "HelveticaNeueCyr";
+    color: rgb(0, 0, 0);
+    line-height: 1.2;
+}
+
+@media screen and (max-width: 993px){
+    span#next,span#prev{
+        display: none;
+    }
+    .telephone-number{
+        padding: 0;
+    }
+    p.description{
+        margin-top: 0;
+    }
+    div.devise{
+        top:10px;
+        left: 15px;
+        background: rgba(0,0,0,0.3);
+        color:white;
+    }
+    .author{
+        margin-top: 0;
+    }
+    .logo{
+        width: 100%;
+        height: 100%;
+    }
+    .text-rec{
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .link-rec{
+        font-size: 14px;
+    }
+    .head-rec{
+        font-size: 14px;
+    }
+    .sub-nav li, .sub-nav{
+        display: block !important;
+    }
+    .text-about div{
+        padding-top: 8%;
+    }
+}
