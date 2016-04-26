@@ -1,4 +1,3 @@
-<?php echo $wp_query->query_vars['page'];?>
 <footer class="container-fluid footer-page">
 	<div class="container">
 		<div class="row">
@@ -26,6 +25,10 @@
 				</p>
 			</div>
 		</div>
+		<div class="text-center">
+			<p class="copyright">© 2016 Farex Group (Казахстан)
+				Разработано компанией <a href="https://b-link.kz"><br>«B-link.kz»</a></p>
+		</div>
 	</div>
 </footer>
 
@@ -40,5 +43,7 @@
 	var submitSMG = new BMModule();
 	submitSMG.submitForm(function(success) { $('.blink-mailer input[type=submit]').val('Отправить'); }, function(error) {});
 </script>
+<?php the_field('google',4)?>
+<?php the_field('yandex',4)?>
 </body>
 </html>
