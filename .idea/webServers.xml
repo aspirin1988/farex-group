@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="822c7973-37c4-47b4-a471-ce0eadb9fbf4" name="farex-group" url="http://195.210.46.17">
+        <fileTransfer host="195.210.46.17" port="21" password="dfe1dffadf99dfd3dfdfdf9adf9adfdddfc2df9c" username="farexgro">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>

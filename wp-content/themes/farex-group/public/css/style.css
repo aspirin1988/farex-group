@@ -501,6 +501,9 @@ input[type="submit"]{
 .item-production>img{
     width: 100%;
 }
+.map-sc{
+    padding-bottom: 30px;
+}
 
 .item-link{
     width: 100%;
@@ -521,6 +524,10 @@ input[type="submit"]{
 
 .row-production{
     padding-top: 20px;
+}
+
+.copyright{
+    color: #ffffff;
 }
 
 .breadcrumb-background{

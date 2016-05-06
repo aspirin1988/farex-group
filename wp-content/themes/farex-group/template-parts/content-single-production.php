@@ -3,7 +3,7 @@
 	<div class="container-fluid row-about row-production">
 		<div class="row about-figure">
 			<div class="col-md-4 figure"></div>
-			<div class="col-md-4 text-figure">Название продукции</div>
+			<div class="col-md-4 text-figure"><?php the_title() ?></div>
 			<div class="col-md-4 figure"></div>
 		</div>
 	</div>
