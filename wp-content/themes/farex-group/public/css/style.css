@@ -425,6 +425,7 @@ input[type="submit"]{
 .logo-img-about{
     width: 100%;
     padding: 0;
+    height: 89vh;
 }
 
 .about{
@@ -618,6 +619,10 @@ td{
     }
     .contacts-info{
         text-align: center;
+    }
+    .blue-triangle{
+        display: none;
+        height:26vh;
     }
     .fanera-devise {
         font-size: 15px;
