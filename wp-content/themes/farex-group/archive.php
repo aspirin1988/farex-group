@@ -55,20 +55,45 @@ $sing=get_post(8);
 			</div>
 		</div>
 		<div class="container">
-			<?php foreach($categories as $key=>$value) : ?>
-				<div class="row">
+			<div class="row">
+
+			<?php foreach($categories as $key=>$value) :  ?>
 					<?php foreach($value as $val) :?>
+						<?php if (get_field('no_link',$val->ID)){?>
 						<div class="col-md-6">
 							<div class="item-production">
+
 								<img src="<?php echo get_the_post_thumbnail_url($val->ID)?>" alt="item1">
+
 								<div class="item-link">
 									<a href="<?php the_permalink($val->ID)?>">Описание продукции</a>
 								</div>
+
 							</div>
 						</div>
+						<?php } ?>
 					<?php endforeach; ?>
-				</div>
 			<?php endforeach; ?>
+			</div>
+
+			<div class="row about-figure">
+				<div class="col-md-12 figure"></div>
+			</div>
+			<br>
+			<?php $row=0; foreach($categories as $key=>$value) :  ?>
+					<?php foreach($value as $val) : if (($row % 2) ==0 ){ echo '<div class="row">';}?>
+
+						<?php if (!get_field('no_link',$val->ID)){ $row++; ?>
+							<div class="col-md-6">
+								<div class="item-production">
+
+									<img src="<?php echo get_the_post_thumbnail_url($val->ID)?>" alt="item1">
+								</div>
+							</div>
+						<?php } if (($row % 2) ==0 || $row==0){ echo '</div>';} ?>
+					<?php endforeach; ?>
+				<?php  endforeach; ?>
+			</div>
 			<?php if ($count_page>1){?>
 				<nav class="text-center" >
 					<ul class="pagination">

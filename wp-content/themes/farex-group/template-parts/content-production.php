@@ -21,6 +21,7 @@ $categories=$temp;
 	<div class="row">
 		<div class="col-md-12">
 			<p class="contacts-logo"><?php the_title()?></p>
+			<pre>11111</pre>
 		</div>
 	</div>
 	<div class="container">
@@ -42,7 +43,7 @@ $categories=$temp;
 		</div>
 	</div>
 	<div class="container">
-		<?php foreach($categories as $key=>$value) : echo '<pre>'.get_field('no_link',84).'</pre>' ?>
+		<?php foreach($categories as $key=>$value) : echo  '111<pre>'.get_field('no_link',84).'</pre>' ?>
 		<div class="row">
 			<?php foreach($value as $val) :?>
 			<div class="col-md-6">
