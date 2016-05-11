@@ -13,15 +13,15 @@
 			<?php  /*print_r($slider);*/ foreach($slider as $key=> $val): ?>
 				<div class="item <?php if (!$key) echo 'active';  ?>">
 					<img class="carousel-item" src="<?=$val['path'];?>" alt="content1">
-					<div class="carousel-caption custom-caption">
-						<p>&#8220; <?=$val['img_title'];?> &#8221;</p>
+					<!--<div class="carousel-caption custom-caption">
+						<p>&#8220; <?/*=$val['img_title'];*/?> &#8221;</p>
 						<p>
-							<?php if (!$key) : ?><img class="image-caption" src="<?php bloginfo('template_directory') ?>/public/img/fanera.png" alt="fanera"><?php endif;?>
+							<?php /*if (!$key) : */?><img class="image-caption" src="<?php /*bloginfo('template_directory') */?>/public/img/fanera.png" alt="fanera"><?php /*endif;*/?>
 						<p class="text-sub-caption">
-							<?=$val['caption1'];?>
+							<?/*=$val['caption1'];*/?>
 						</p>
 						</p>
-					</div>
+					</div>-->
 				</div>
 			<?php endforeach; ?>
 		</div>
@@ -73,7 +73,7 @@
 					<h3><?=$value->post_title ?></h3>
 					<img class="big-news" src="<?=get_the_post_thumbnail_url($value->ID) ?>" alt="big-news">
 					<p class="text-news">
-						<?=$value->post_content ?>
+						<?=mb_substr($value->post_content,0,128).'...' ?>
 					</p>
 					<p class="link-news">
 						<a href="<?php the_permalink($value->ID) ?>">Подробней ></a>

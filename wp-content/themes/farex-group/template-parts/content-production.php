@@ -28,7 +28,7 @@ $categories=$temp;
 			<div class="col-md-12 col-logo">
 				<img class="logo-img-about" src="<?php echo get_the_post_thumbnail_url()?>" alt="production">
 				<img class="blue-triangle" src="<?php the_field('header-logo')?>" alt="fanera-logo">
-				<p class="fanera-devise">
+				<p style="top: auto; bottom: 20px;" class="fanera-devise">
 					<?php echo  get_the_content()?>
 				</p>
 			</div>
