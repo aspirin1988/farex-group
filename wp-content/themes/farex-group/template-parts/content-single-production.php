@@ -9,9 +9,9 @@
 	</div>
 
 	<div class="container">
-		<div class="row row-product-text">
+		<div class="row ">
 			<div class="col-md-4">
-				<img class="img-production" src="<?php the_post_thumbnail_url() ?>" alt="">
+				<img style="    padding: 55px 0;" class="img-production" src="<?php the_post_thumbnail_url() ?>" alt="">
 			</div>
 			<div class="col-md-8 description-product">
 				<p>
@@ -23,5 +23,6 @@
 
 		<div class="row">
 			<?php echo get_the_excerpt();   ?>
+		</div>
+		<br>
 	</div>
-</div>

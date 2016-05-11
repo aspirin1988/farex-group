@@ -88,9 +88,9 @@
 				<div class="col-md-3">
 					<div class="small-news">
 						<img src="<?=get_the_post_thumbnail_url($value->ID) ?>" alt="<?=$value->post_title ?>">
-						<div class="small-link">
-							<a href="<?php the_permalink($value->ID) ?>">Подробней</a>
-						</div>
+						<!--<div class="small-link">
+							<a href="<?php /*the_permalink($value->ID) */?>">Подробней</a>
+						</div>-->
 					</div>
 				</div>
 				<?php endforeach; ?>
@@ -108,7 +108,7 @@
 		<div class="col-md-12 devise">
 			<img src="<?php bloginfo('template_directory') ?>/public/img/business.png" alt="business">
 			<p>
-				<?php the_field('device1') ?>
+				<?=get_field('devise1',4) ?>
 			</p>
 		</div>
 	</div>
