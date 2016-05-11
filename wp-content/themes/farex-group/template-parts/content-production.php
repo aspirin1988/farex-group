@@ -42,15 +42,20 @@ $categories=$temp;
 		</div>
 	</div>
 	<div class="container">
-		<?php foreach($categories as $key=>$value) : ?>
+		<?php foreach($categories as $key=>$value) : echo '<pre>'.get_field('no_link',84).'</pre>' ?>
 		<div class="row">
 			<?php foreach($value as $val) :?>
 			<div class="col-md-6">
 				<div class="item-production">
 					<img src="<?php echo get_the_post_thumbnail_url($val->ID)?>" alt="item1">
+
+					<?php if (get_field('no_link',$val->ID)){ ?>
 					<div class="item-link">
-						<a href="<?php the_permalink($val->ID)?>">Описание продукции</a>
+
+						<a href="<?php  the_permalink($val->ID)?>">Описание продукции</a>
+
 					</div>
+					<?php } ?>
 				</div>
 			</div>
 			<?php endforeach; ?>
