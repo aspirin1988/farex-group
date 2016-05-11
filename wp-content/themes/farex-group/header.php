@@ -25,10 +25,10 @@
 
 <div class="container">
 	<div class="row">
-		<div class="col-md-4">
+		<div class="col-md-4 col-sm-12">
 			<a href="/"><img class="logo-img" src="<?php the_field('header-logo',4)?>" alt="logo"></a>
 		</div>
-		<div class="col-md-7 text-right ">
+		<div class="col-md-7 col-sm-12 text-right ">
 			<div class="number-telephone">
 				<img src="<?php bloginfo('template_directory') ?>/public/img/telephone.png" alt="telephone">
 				<span><a href="tel:<?php the_field('phone1',4); ?>"><?php the_field('phone1',4); ?></a></span>

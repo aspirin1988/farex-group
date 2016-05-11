@@ -425,6 +425,7 @@ input[type="submit"]{
 .logo-img-about{
     width: 100%;
     padding: 0;
+    height: 89vh;
 }
 
 .about{
@@ -600,9 +601,17 @@ td{
     }
     .number-telephone span {
         padding-right: 30px;
+        display: block;
     }
     .number-telephone {
         padding-left: 0;
+        padding-top: 0 !important;
+    }
+    .text-right{
+        text-align: center !important;
+    }
+    .number-telephone>img{
+        display: none;
     }
     .form-control-custom{
         margin-left: 35px;
@@ -619,6 +628,12 @@ td{
     .contacts-info{
         text-align: center;
     }
+    .blue-triangle{
+        display: none;
+    }
+    .logo-img-about{
+        height:26vh !important;
+    }
     .fanera-devise {
         font-size: 15px;
         font-family: "HelveticaNeueCyr";
@@ -629,5 +644,8 @@ td{
         right: 13px;
         top: 20px;
         width: 194px;
+    }
+    .logo-devise{
+        right: 80px;
     }
 }

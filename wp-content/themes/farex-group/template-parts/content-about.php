@@ -5,11 +5,12 @@
 	<div class="container">
 		<div class="row">
 			<div class="col-md-12 col-logo">
-				<img class="logo-img-about" src="<?php echo get_the_post_thumbnail_url() ?>" alt="about">
-				<img class="blue-triangle" src="<?php the_field('header-logo') ?>" alt="blue-triangle">
-				<p class="logo-devise">
-					На рынке с 2012 года
-				</p>
+				<div class="logo-img-about" style="background:url(<?php echo get_the_post_thumbnail_url() ?>);background-size:cover">
+					<img class="blue-triangle" src="<?php the_field('header-logo') ?>" alt="blue-triangle">
+					<p class="logo-devise">
+						На рынке с 2012 года
+					</p>
+				</div>
 			</div>
 		</div>
 	</div>
