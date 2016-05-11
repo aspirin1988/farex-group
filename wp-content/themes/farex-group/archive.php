@@ -63,8 +63,8 @@ $sing=get_post(8);
 						<div class="col-md-6">
 							<div class="item-production">
 
-								<img src="<?php echo get_the_post_thumbnail_url($val->ID)?>" alt="item1">
-
+								<div class="thumbnail-image-index" style="background-image: url(<?php echo get_the_post_thumbnail_url($val->ID)?>)">
+								</div>
 								<div class="item-link">
 									<a href="<?php the_permalink($val->ID)?>">Описание продукции</a>
 								</div>
@@ -86,8 +86,8 @@ $sing=get_post(8);
 						<?php if (!get_field('no_link',$val->ID)){ $row++; ?>
 							<div class="col-md-6">
 								<div class="item-production">
-
-									<img src="<?php echo get_the_post_thumbnail_url($val->ID)?>" alt="item1">
+									<div class="thumbnail-image-index" style="background-image: url(<?php echo get_the_post_thumbnail_url($val->ID)?>)">
+									</div>
 								</div>
 							</div>
 						<?php } if (($row % 2) ==0 || $row==0){ echo '</div>';} ?>

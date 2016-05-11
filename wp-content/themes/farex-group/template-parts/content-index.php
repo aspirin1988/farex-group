@@ -71,9 +71,10 @@
 				<?php   foreach($categories as $value) : ?>
 				<div class="col-md-6">
 					<h3><?=$value->post_title ?></h3>
-					<img class="big-news" src="<?=get_the_post_thumbnail_url($value->ID) ?>" alt="big-news">
+					<div class="thumbnail-image-index" style="background-image: url(<?=get_the_post_thumbnail_url($value->ID) ?>)">
+					</div>
 					<p class="text-news">
-						<?=mb_substr($value->post_content,0,128).'...' ?>
+						<?php echo mb_substr($value->post_content,0,128).'...'; ?>
 					</p>
 					<p class="link-news">
 						<a href="<?php the_permalink($value->ID) ?>">Подробней ></a>

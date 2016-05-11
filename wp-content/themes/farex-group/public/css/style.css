@@ -15,7 +15,7 @@
     padding-top: 15px;
     padding-left: 15px;
     font-size: 20px;
-    font-family: "HelveticaNeueCyr";
+    font-family: BebasNeueRegular;
     color: rgb(94, 93, 93);
     line-height: 1.2;
     text-align: right;
@@ -45,7 +45,7 @@
     padding-top: 5px;
     padding-bottom: 5px;
     font-size: 18px;
-    font-family: "HelveticaNeueCyr";
+    font-family: BebasNeueRegular;
     color: rgb(0, 0, 0);
     line-height: 1.333;
 }
@@ -74,7 +74,7 @@
 
 .custom-caption{
     display: block;
-    top: 210px !important;
+    top: 41% !important;
     font-size: 40px;
     font-family: BebasNeueRegular;
     color: rgb(255, 255, 255);
@@ -105,15 +105,13 @@
 }
 
 .text-sub-caption{
-    font-size: 9px;
-    font-family: HelveticaNeueCyr;
+    font-size: 16px;
+    font-family: BebasNeueRegular;
     color: rgb(255, 255, 255);
     line-height: 1.2;
-    margin-left: 185px;
-    width: 100px;
+    margin-top: 5%;
+    width: 100%;
 }
-
-
 
 .content{
     margin-top: -1px;
@@ -147,7 +145,7 @@
 .text-figure{
     margin-top: 5px;
     font-size: 30px;
-    font-family: "HelveticaNeueCyr";
+    font-family: BebasNeueRegular;
     color: rgb(255, 255, 255);
     line-height: 1.2;
     text-align: center;
@@ -156,33 +154,32 @@
 .text-content{
     margin-top: 15px;
     font-size: 18px;
-    font-family: "HelveticaNeueCyr";
+    font-family: BebasNeueRegular;
     color: rgb(255, 255, 255);
     line-height: 1.2;
-    text-align: center;
+    text-align: justify;
 }
 
 
 .details{
-    height: 60px;
-    width: 260px;
+    height: 55px;
+    width: 170px;
     background: white;
     margin: 20px auto;
     position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .link-details{
-    left: 70px;
-    top: 15px;
-    position: absolute;
     font-size: 24px;
-    font-family: "HelveticaNeueCyr";
+    font-family: BebasNeueRegular;
     color: rgb(0, 0, 0);
     line-height: 1.2;
 }
 
 .big-news{
-    border: 20px solid #13447e;
     width: 100%;
 }
 
@@ -218,7 +215,7 @@
 
 .small-link a{
     font-size: 12px;
-    font-family: "HelveticaNeueCyr";
+    font-family: BebasNeueRegular;
     color: rgb(206, 206, 206);
     text-decoration: underline;
     text-transform: uppercase;
@@ -226,12 +223,12 @@
     font-weight: bold;
 }
 
-p.text-news{
+p.text-news, p.text-news>p{
     padding-top: 15px;
     padding-left: 30px;
     padding-right: 25px;
     font-size: 14px;
-    font-family: "HelveticaNeueCyr";
+    font-family: BebasNeueRegular;
     color: rgb(76, 76, 76);
     line-height: 1.2;
     text-align: left;
@@ -266,7 +263,7 @@ p.text-news{
 
 .devise p{
     font-size: 24px;
-    font-family: "HelveticaNeueCyr";
+    font-family: BebasNeueRegular;
     color: rgb(0, 0, 0);
     line-height: 1.2;
     padding-top: 5px;
@@ -288,7 +285,7 @@ p.text-news{
 
 .form-text h2{
     font-size: 24px;
-    font-family: "HelveticaNeueCyr";
+    font-family: BebasNeueRegular;
     color: rgb(0, 0, 0);
     font-weight: bold;
     text-transform: uppercase;
@@ -298,7 +295,7 @@ p.text-news{
 
 .form-text p{
     font-size: 18px;
-    font-family: "HelveticaNeueCyr";
+    font-family: BebasNeueRegular;
     color: rgb(0, 0, 0);
     line-height: 1.2;
     text-align: center;
@@ -318,7 +315,7 @@ input[type="text"]{
     line-height: 3em;
     font-size: 18px;
     padding-left: 20px;
-    font-family: "HelveticaNeueCyr";
+    font-family: BebasNeueRegular;
     color: rgb(0, 0, 0);
     text-transform: uppercase;
 }
@@ -343,7 +340,7 @@ input[type="submit"]{
     background: black;
     color: white;
     font-size: 18px;
-    font-family: "HelveticaNeueCyr";
+    font-family: BebasNeueRegular;
     line-height: 1.2;
     border: 0;
     margin-bottom: 20px;
@@ -362,7 +359,7 @@ input[type="submit"]{
 
 .too{
     font-size: 30px;
-    font-family: "HelveticaNeueCyr";
+    font-family: BebasNeueRegular;
     color: rgb(254, 254, 254);
     line-height: 1.2;
     text-align: center;
@@ -370,7 +367,7 @@ input[type="submit"]{
 
 .plus{
     font-size: 24px;
-    font-family: "HelveticaNeueCyr";
+    font-family: BebasNeueRegular;
     color: rgb(254, 254, 254);
     line-height: 1.2;
     text-align: center;
@@ -378,7 +375,7 @@ input[type="submit"]{
 
 .contacts-info{
     font-size: 20px;
-    font-family: "HelveticaNeueCyr";
+    font-family: BebasNeueRegular;
     color: rgb(254, 254, 254);
     line-height: 1.2;
     text-align: right;
@@ -401,7 +398,7 @@ input[type="submit"]{
 .contacts-logo{
     text-align: center;
     font-size: 30px;
-    font-family: "HelveticaNeueCyr";
+    font-family: BebasNeueRegular;
     color: rgb(0, 0, 0);
     line-height: 1.2;
     margin-top: 10px;
@@ -409,7 +406,7 @@ input[type="submit"]{
 
 .contact-text{
     font-size: 20px;
-    font-family: "HelveticaNeueCyr";
+    font-family: BebasNeueRegular;
     color: rgb(0, 0, 0);
     line-height: 1.2;
     text-align: left;
@@ -445,7 +442,7 @@ input[type="submit"]{
 
 .logo-devise{
     font-size: 36px;
-    font-family: "HelveticaNeueCyr";
+    font-family: BebasNeueRegular;
     color: rgb(255, 255, 255);
     font-weight: bold;
     line-height: 1.2;
@@ -475,7 +472,7 @@ input[type="submit"]{
 
 .about-description{
     font-size: 18px;
-    font-family: "HelveticaNeueCyr";
+    font-family: BebasNeueRegular;
     color: rgb(0, 0, 0);
     line-height: 1.2;
     text-align: center;
@@ -483,15 +480,20 @@ input[type="submit"]{
 
 /* СТРАНИЦА НАШИ ПРОДУКТЫ */
 
+.thumbnail-image-index{
+    background-size: cover;
+    padding-bottom: 50%;
+}
+
 .fanera-devise{
     font-size: 36px;
-    font-family: "HelveticaNeueCyr";
+    font-family: BebasNeueRegular;
     color: rgb(255, 255, 255);
     line-height: 1.2;
-    text-align: center;
+    text-align: right;
     position: absolute;
-    right: 100px;
-    bottom: 20px;
+    right: 19px;
+    bottom: 12px;
     width: 447px;
 }
 
@@ -516,7 +518,7 @@ input[type="submit"]{
 
 .item-link>a{
     font-size: 24px;
-    font-family: "HelveticaNeueCyr";
+    font-family: BebasNeueRegular;
     color: rgb(254, 254, 254);
     text-decoration: underline;
     line-height: 1.2;
@@ -556,7 +558,7 @@ input[type="submit"]{
 
 .description-product>p,.character{
     font-size: 18px;
-    font-family: "HelveticaNeueCyr";
+    font-family: BebasNeueRegular;
     color: rgb(0, 0, 0);
     line-height: 1.2;
     text-align: left;
@@ -566,7 +568,7 @@ input[type="submit"]{
 td{
     border: 1px solid black !important;
     font-size: 18px;
-    font-family: "HelveticaNeueCyr";
+    font-family: BebasNeueRegular;
     color: rgb(0, 0, 0);
     text-transform: uppercase;
     line-height: 1.2;
@@ -581,7 +583,7 @@ td{
 .error-404>.row>.col-md-12{
     text-align: center;
     font-size: 18px;
-    font-family: "HelveticaNeueCyr";
+    font-family: BebasNeueRegular;
     color: rgb(0, 0, 0);
     text-transform: uppercase;
     line-height: 1.2;
@@ -636,7 +638,7 @@ td{
     }
     .fanera-devise {
         font-size: 15px;
-        font-family: "HelveticaNeueCyr";
+        font-family: BebasNeueRegular;
         color: rgb(255, 255, 255);
         line-height: 1.2;
         text-align: center;

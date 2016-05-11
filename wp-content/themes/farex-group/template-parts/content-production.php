@@ -48,8 +48,8 @@ $categories=$temp;
 			<?php foreach($value as $val) :?>
 			<div class="col-md-6">
 				<div class="item-production">
-					<img src="<?php echo get_the_post_thumbnail_url($val->ID)?>" alt="item1">
-
+					<div class="thumbnail-image-index" style="background-image: url(<?=get_the_post_thumbnail_url($value->ID) ?>)">
+					</div>
 					<?php if (get_field('no_link',$val->ID)){ ?>
 					<div class="item-link">
 
