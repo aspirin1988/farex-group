@@ -21,6 +21,10 @@
     text-align: right;
 }
 
+div.form{
+    display: none;
+}
+
 .number-telephone a {
     color: rgb(94, 93, 93);
 }

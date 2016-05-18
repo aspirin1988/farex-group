@@ -133,5 +133,17 @@
 				</div>
 			</div>
 		</form>
+		<div class="form ">
+			<div class="row">
+				<div class="col-md-8">
+					<div class="form-text">
+						<h2>ОБРАТНАЯ СВЯЗЬ</h2>
+					</div>
+					<div class="form-control-custom response-mailer text-center ">
+
+					</div>
+				</div>
+			</div>
+		</div>
 	</div>
 
