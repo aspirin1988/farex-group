@@ -13,6 +13,7 @@
 			if ($_title){echo $_title;} else {the_title();}
 		}else{if (get_field('meta-title')){the_field('meta-title');}else{the_title();}}?></title>
 	<meta name="description" content="<?php if (is_tax()){ echo get_field('mata-description',$current_object->taxonomy.'_'.$current_object->term_taxonomy_id);}else{ the_field('mata-description');}?>"/>
+	<link rel="shortcut icon" href="<?=get_field('favicon',4)?>">
 
 
 	<!-- Bootstrap -->
