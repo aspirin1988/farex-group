@@ -127,7 +127,7 @@
 					</div>
 					<div class="form-control-custom">
 						<input name="Ф.И.О." required type="text" placeholder="Ф.И.О.">
-						<input name="ТЕЛЕФОН" required type="text" placeholder="ТЕЛЕФОН">
+						<input name="ТЕЛЕФОН" required  type="text" placeholder="ТЕЛЕФОН">
 					</div>
 					<input type="submit" value="ОТПРАВИТЬ">
 				</div>
