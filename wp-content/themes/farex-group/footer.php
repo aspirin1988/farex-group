@@ -41,7 +41,7 @@
 <script src="https://callback.blink.kz/resources/callback/js/mailer.js"></script>
 <script>
 	var submitSMG = new BMModule();
-	submitSMG.submitForm(function(success) { $('.blink-mailer input[type=submit]').val('Отправить'); $('form.form.blink-mailer').hide(500); $('div.form .form-control-custom.response-mailer').html(success);  $('div.form').show(800)}, function(error) {});
+	submitSMG.submitForm(function(success) { $('.blink-mailer input[type=submit]').val('Отправить'); $('form.form.blink-mailer').hide(); $('div.form .form-control-custom.response-mailer').html(success);  $('div.form').show()}, function(error) {});
 </script>
 <?php the_field('google',4)?>
 <?php the_field('yandex',4)?>

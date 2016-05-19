@@ -76,7 +76,7 @@
 					</div>
 					</a>
 					<p class="text-news">
-						<?php echo mb_substr($value->post_content,0,128).'...'; ?>
+						<?php $cont=explode('.',$value->post_content);  echo $cont[0].'.'.$cont[1].' ...'; ?>
 					</p>
 					<p class="link-news">
 						<a href="<?php the_permalink($value->ID) ?>">Подробней ></a>
@@ -126,8 +126,8 @@
 						<p>*оставьте номер, и мы Вам перезвоним</p>
 					</div>
 					<div class="form-control-custom">
-						<input name="Ф.И.О." type="text" placeholder="Ф.И.О.">
-						<input name="ТЕЛЕФОН" type="text" placeholder="ТЕЛЕФОН">
+						<input name="Ф.И.О." required type="text" placeholder="Ф.И.О.">
+						<input name="ТЕЛЕФОН" required type="text" placeholder="ТЕЛЕФОН">
 					</div>
 					<input type="submit" value="ОТПРАВИТЬ">
 				</div>
