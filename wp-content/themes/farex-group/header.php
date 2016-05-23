@@ -6,13 +6,26 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-	<?php $current_object=get_queried_object();?>
-	<title>	Farex Group | <?php $query='';
-		if (is_tax()){
-			$_title=get_field('meta-title',$current_object->taxonomy.'_'.$current_object->term_taxonomy_id);
-			if ($_title){echo $_title;} else {the_title();}
-		}else{if (get_field('meta-title')){the_field('meta-title');}else{the_title();}}?></title>
-	<meta name="description" content="<?php if (is_tax()){ echo get_field('mata-description',$current_object->taxonomy.'_'.$current_object->term_taxonomy_id);}else{ the_field('mata-description');}?>"/>
+	<?php $current_object=get_queried_object(); $field=get_option($current_object->taxonomy.'_'.$current_object->term_taxonomy_id) ?>
+	<title>Farex Group | <?php
+		if (is_tax()||is_category()){
+			$_title=$field['meta-title'];
+			if ($_title){
+				echo $_title;
+			} else{
+				if (get_field('meta-title')){
+					the_field('meta-title');
+				}else{
+					wp_title();}
+			}
+		}else{
+			if (get_field('meta-title')){
+				the_field('meta-title');
+			}else{
+				the_title();}
+		}?>
+	</title>
+	<meta name="description" content="<?php if (is_tax()){ echo $field['meta-description'];}else{ the_field('meta-description');}?>"/>
 	<link rel="shortcut icon" href="<?=get_field('favicon',4)?>">
 
 
