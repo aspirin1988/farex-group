@@ -115,7 +115,6 @@
 			</p>
 		</div>
 	</div>
-
 	<div class="container">
 		<form class="form blink-mailer">
 			<input style="display: none" type="text" name="title" value="ОБРАТНАЯ СВЯЗЬ">
